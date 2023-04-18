@@ -40,7 +40,7 @@ function App() {
       
       const datas = results.flatMap(data => data.results)
       const characters: CharacterType[] = datas.map(({name, image, species}) => {
-        console.log("data: ", name, image, species)
+        
         return ({
           name,
           image,
