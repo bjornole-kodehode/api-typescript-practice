@@ -1,10 +1,10 @@
 export type CharacterType = {
-  name: string,
-  image: string,
-  gender: string,
-  species: string,
-  cost: Cost
-}
+  name: string;
+  image: string;
+  gender: string;
+  species: string;
+  cost: Cost;
+};
 
 export enum Cost {
   one = 1,
@@ -12,7 +12,7 @@ export enum Cost {
   three = 3,
   four = 4,
   five = 5,
-  six = 6
+  six = 6,
 }
 
-export type SelectedType = "cost" | "name"
+export type SelectedType = "cost" | "name";
