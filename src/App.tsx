@@ -5,11 +5,6 @@ import { getData } from './api'
 import { CharacterType, Cost, SelectedType } from './types';
 const URL = "https://rickandmortyapi.com/api/character?species="
 
-
-
-
-
-
 function getCost(value: any): Cost {
   switch (value) {
     case "Human":
